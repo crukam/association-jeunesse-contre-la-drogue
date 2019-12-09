@@ -1,0 +1,74 @@
+.navbar {
+    background:black;/* #070617;*/
+  }
+  #logo
+  {
+      font-style:italic;
+      font-size: 1.875em;
+  }
+  .navbar-brand {
+    color: #fff;
+    cursor: pointer;
+    
+  }
+  .nav-link {
+    margin-right: 1em !important;
+    color:#fff;
+  }
+  .nav-link:hover {
+    color: #000;
+  }
+  .navbar-collapse {
+    justify-content: flex-end;
+    
+  }
+  
+  html,body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, Sans-serif;
+    background-color: #fff;
+  }
+.jumbotron
+{
+	background-color:black;
+	color:#fff;
+}
+.carousel-headings{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 8em;
+}
+.daytitle
+{
+  text-align:center;
+	background-color:black;
+	color:#fff;
+  border-radius: 25px;
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
+}
+.card-body{
+  background-color:black;
+	color:#fff;
+}
+.activity{
+  background-color:black;
+	color:#fff;
+}
+.contact-form{
+  padding-right: 2em;
+  padding-left: 2em;
+  background-color:black;
+  color:#fff;
+  margin-bottom: 0.2em;
+}
+.btn-dark{
+  width: 100px;
+  background-color:rgb(48, 44, 44);
+  color:#fff;
+  border: 2px black solid;
+  margin-top: 0.2em;
+}
+.fa{
+  color: white;
+}
