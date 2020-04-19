@@ -1,0 +1,436 @@
+<!doctype html>
+
+<html lang="en">
+<!--create head and load required tags-->
+  <head>
+	<title>AJEDROB</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<!-- icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- costumised font stylesheet-->
+	<link rel="stylesheet" type ="text/css" href="css/style.css">
+  </head>
+  <body>
+      <header>
+            <nav class="navbar navbar-expand-md">
+                    <div class="navbar-brand" id="logo"href="#"><img src="./img/Ajedroplogo.png" alt=""></div>
+                    <div class="navbar-brand" id="logo"href="#">Action jeunesse pour la lutte contre la drogue</div>
+                    <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="main-navigation">
+                      <ul class="navbar-nav">
+                        <li class="nav-item">
+                          <a class="nav-link" href="#accueil">Accueil</a>
+                        </li>
+                        <!--Dropdown movies item-->
+                        <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Historique</a>
+                              <div class="dropdown-menu">
+                                  <a class="dropdown-item" href="#mission">Mission</a>
+                                  <a class="dropdown-item" href="#activity">activities</a>
+                                  <a class="dropdown-item" href="#vision">Vision</a>
+                                  <a class="dropdown-item" href="#defis">Defis</a>
+                              
+                              </div>
+                          </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#activity">Activites</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#contact">Contact us</a>
+                        </li>
+                        
+                      </ul>
+                    </div>
+                  </nav>
+          
+      </header>
+      <!--Code for carousel-->
+  <div id="mycarousel" class="carousel slide w-100" data-ride="carousel" data-interval="2500" data-offset="0">
+        <!--Adding indicators-->
+        <ol class="carousel-indicators">
+          <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#mycarousel" data-slide-to="1"></li>
+          <li data-target="#mycarousel" data-slide-to="2"></li>
+          <li data-target="#mycarousel" data-slide-to="3"></li>
+          <li data-target="#mycarousel" data-slide-to="4"></li>
+          <li data-target="#mycarousel" data-slide-to="5"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active">
+            <img class="d-block w-100 carousel-image" src="img/ensemble.jpg" alt="girl dreaming">
+              <div class="carousel-caption d-flex h-100 align-items-center justify-content-center">
+                  <h2 class = "carousel-headings scale-up-hor-center">Tous ensemble</h2>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100 carousel-image" src="img/informerall.jpg" alt="watch">
+              <div class="carousel-caption d-flex h-100 align-items-center justify-content-center">
+                  <h2 class = "carousel-headings scale-up-hor-center" > la drogue ou  l'alcool  se paiera un jour ou l'autre .</h2>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100 carousel-image" src="img/educons.jpg" alt="object">
+              <div class="carousel-caption d-flex h-100 align-items-center justify-content-center">
+                  <h2 class = "carousel-headings scale-up-hor-center">Eduquons nos jeunes</h2>
+              </div>
+          </div>
+          
+          <div class="carousel-item">
+            <img class="d-block w-100 carousel-image" src="img/LSEpicture.jpg" alt="light">
+              <div class="carousel-caption d-flex h-100 align-items-center justify-content-center">
+                  <h2 class = "carousel-headings scale-up-hor-center">Des ravages de la drogue</h2>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100 carousel-image" src="img/ajedropKinama.png" alt="a dream">
+              <div class="carousel-caption d-flex h-100 align-items-center justify-content-center">
+                  <h2 class = "carousel-headings scale-up-hor-center"></h2>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100 carousel-image" src="img/drogue.jpg" alt="film festival">
+              <div class="carousel-caption d-flex h-100 align-items-center justify-content-center">
+                  <h2 class = "carousel-headings scale-up-hor-center">Des danger des substances nocives</h2>
+              </div>
+          </div>
+        </div>
+        <!--adding previous and next control-->
+        <a class="carousel-control-prev" href="#mycarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#mycarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <!--main web content-->
+      <div id="accueil" class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">HISTORIQUE</h1>
+                <p class="lead">Un groupe de gens soucieux du  bien-être de la jeunesse a constaté que la drogue au Burundi commence à prendre de l’ampleur dans la société 
+                    burundaise en général et surtout dans la jeunesse en particulier. Ce qui cause des  maladies et de graves conséquences  chez les jeunes qui font partie manifestement de la classe la plus active du pays.. C’est pour cette raison 
+                    que l’Association Action Jeunesse Contre la Drogue et la Pauvreté (AJEDROP en sigle) a été créée.</p></div>
+      </div>
+      <h1  id="mission" class= "daytitle">Mission</h1>
+      <div id="lineUp" class="container">
+        
+        <div id="line1" class="row justify-content-center">
+        <div class="col-lg-4 col-md-6  col-sm-12 my-2 d-flex align-items-stretch">
+          <div class="card">
+              <div class="card-body text-center">
+                  Informer
+              </div>
+              <div class="imgBox t1">
+                  <a href="#">
+                      <div class="tint t1 zoom ">
+                          <img class="card-img-top" src="img/informer.png" alt="black panter">
+                      </div>
+                  </a>
+              </div>
+          </div> 
+       </div>
+      <div class="col-lg-4 col-md-6  col-sm-12 my-2 d-flex align-items-stretch">
+        <div class="card">
+            <div class="card-body text-center">
+                Protéger
+              </div>
+            <div class="imgBox t1">
+                <a href="#">
+                    <div class="tint t1 zoom ">
+                        <img class="card-img-top" src="img/protege.jpg" alt="black panter">
+                    </div>
+                </a>
+            </div>
+          </div> 
+      </div>
+    <div class="col-lg-4 col-md-6  col-sm-12 my-2 d-flex align-items-stretch">
+      <div class="card">
+          <div class="card-body text-center">
+              Plaidoyer
+         </div>
+          <div class="imgBox t1">
+              <a href="#">
+                  <div class="tint t1 zoom ">
+                      <img class="card-img-top" src="img/plaidoyer.png" alt="black panter">
+                  </div>
+              </a>
+          </div>
+      </div>  
+    </div>
+  </div>
+</div>
+  <div id="mission"class="jumbotron jumbotron-fluid"> 
+      <div class="container">
+          <p class="lead">Protéger les jeunes contre la drogue sous toute sa forme.
+           Être l’espace de rencontre et de discussion entre jeunes qui veulent arrêter  la drogue.
+           Promouvoir et initier des actions de développement en faveur de la jeunesse et d’autres catégories des vulnérables notamment par de micro-projets 
+          </p>
+          
+      </div>
+      <div class="container">
+          <h1 id="vision" class="display-4">VISION</h1>
+          <img style="float: right;margin: 10px" src="img/vision.png" alt="">
+          <p class="lead">Devenir  une organisation forte et active, capable de contribuer à l'édification d'une société sans drogue. 
+              Secourir les jeunes  et les femmes impliqués dans la toxicomanie
+             </p>
+      </div>
+      <div class="container">
+          <h1 id="defis" class="display-4">Défis</h1>
+          <img style="float: left;margin: 10px" src="img/tousensemblebis.png" alt="">
+          <p  class="lead"> Comment aider les parents usagers de drogues à assumer le  rôle de parent et protéger les
+             enfants contre  la drogue. Cela reste un défi majeur  pour la plupart des parents usagers
+              qui mènent des vies souvent chaotiques.
+
+            </p>
+            <p class="lead">Comment lutter contre la stigmatisation qui pèse sur les femmes toxicomanes, et ce d’autant plus lorsqu’elles sont mères. L’usage de drogues, condamné par la société en général, étant encore moins toléré pour les  femmes
+      
+      </div>
+   </div>
+  </div>
+    
+   <h1  id ="activity" class= "daytitle">Activities</h1> 
+   <div class="container">
+        
+    <div id="day" class="row justify-content-center activity-item">
+      <h1>lycee du saint Esprit</h1>
+    </div>
+    <div id="picture" class="row justify-content-center activity-item">
+          <div class="col-lg-4 col-md-6  col-sm-12 my-2 d-flex align-items-stretch activity-item">
+             <img src="img/eventLse1.png" alt="">
+          </div>
+          <div class="col-lg-4 col-md-6  col-sm-12 my-2 d-flex align-items-stretch activity-item">
+            <img src="img/eventLse2.png" alt="">
+          </div>
+          <div class="col-lg-4 col-md-6  col-sm-12 my-2 d-flex align-items-stretch activity-item">
+              <img src="img/eventLse3.png" alt="">
+          </div>
+      </div>
+    <div  id="kinamaid" class="row justify-content-center activity-item">
+      <h1>Kinama</h1>
+    </div>
+    <div id="picture" class="row justify-content-center activity-item">
+        <div class="col-lg-4 col-md-6  col-sm-12 my-2 d-flex align-items-stretch activity-item">
+           <img src="img/kinama1.png" alt="">
+        </div>
+        <div class="col-lg-4 col-md-6  col-sm-12 my-2 d-flex align-items-stretch activity-item">
+          <img src="img/kinama2.png" alt="">
+        </div>
+        <div class="col-lg-4 col-md-6  col-sm-12 my-2 d-flex align-items-stretch activity-item">
+            <img src="img/kinama3.png" alt="">
+        </div>
+    </div>
+ </div>
+</div>
+ <h1 id= "contact" class="daytitle">Contactez nous</h1>
+ <form class="contact-form">
+  <div class="form-row">
+      <div class="form-group col-md-6 col-sm-12">
+          <div class="form-row">
+              <label for="inputName">Nom *</label>
+              <input type="text" class="form-control" id="inputName" placeholder="Nom" name="i_name" required minlength="1" maxlength="25">
+          </div>
+          <div class="form-row">
+              <label for="inputName">Prenom *</label>
+              <input type="text" class="form-control" id="inputsurName" placeholder="Prenom" name="sur_name" required minlength="1" maxlength="25">
+          </div>
+          <div class="form-row">
+              <label for="inputName">Email*</label>
+              <input type="text" class="form-control" id="inputsurName" placeholder="Email" name="email_name" required minlength="1" maxlength="25">
+          </div>
+      </div>
+      <div class="form-group col-md-6 col-sm-12">
+          <label for="inputName">message*</label>
+          <textarea type="text" class="form-control" rows="7"></textarea>
+          <button type="submit" class="btn btn-dark ">submit</button>
+      </div>
+  </div>
+         
+</form>
+<footer class="section footer-classic context-black bg-image" style="background: black;">
+  <div class="container">
+    <div class="row row-30">
+        <div class="col-md-4 col-xl-5">
+            <div style="color: white;" class="pr-xl-4">
+              <p>AJEDROP est une Association sans but lucratif, agréée par l’ordonnance ministérielle n°530/1703 du 20 Décembre 2018.</p>
+               Rights
+              <p class="rights"><span>©  </span><span class="copyright-year">2019</span><span> C Rukamiza </span><span></span><span>. </span><span>All Rights Reserved.</span></p>
+            </div>
+          </div>
+          <div  style="color: white;"  class="col-md-4">
+              <h5>Contacts</h5>
+              <dl class="contact-list">
+                  <dt>Address:</dt>
+                  <dd>Avenue de l’ONU N° 3,Rohero, Mukaza, BUJUMBURA,BURUNDI</dd>
+              </dl>
+              <dl class="contact-list">
+                  <dt>email:</dt>
+                  <dd><a href="mailto:#">ajedrop@gmail.com</a></dd>
+                </dl>
+          </div>
+          <div  style="color: white;" class="col-md-4 col-xl-3">
+              <h5>Links</h5>
+              <ul class="nav-list">
+                <li><a href="#accueil">Historique</a></li>
+                <li><a href="#mission">Mission</a></li>
+                <li><a href="#activity">Activites</a></li>
+                <li><a href="#contact">Contacts</a></li>
+                
+              </ul>
+            </div>
+
+    </div>
+      <div class="row justify-content-center">
+          <div class = " social-icons-list" >
+              <a class="btn btn-default" href="https://twitter.com/"><i class="fa fa-twitter fa-2x"></i></a>
+              <a class="btn btn-default" href="https://facebook.com/"><i class="fa fa-facebook fa-2x"></i></a>
+              <a class="btn btn-default" href="https://instagram.com/"><i class="fa fa-instagram fa-2x"></i></a>   
+           </div> 
+      </div>
+     
+  </div>    
+</footer>
+   
+   
+  <!--    <div id="mission"class="jumbotron jumbotron-fluid">   
+          <div class="container">
+            <p class="lead">Protéger les jeunes contre la drogue sous toute sa forme.
+             Être l’espace de rencontre et de discussion entre jeunes qui veulent arrêter  la drogue.
+             Promouvoir et initier des actions de développement en faveur de la jeunesse et d’autres catégories des vulnérables notamment par de micro-projets 
+            </p>
+            
+        </div>
+        <div class="container">
+          <h1 id="vision" class="display-4">VISION</h1>
+          <img style="float: right;margin: 10px" src="img/vision.png" alt="">
+          <p class="lead">Devenir  une organisation forte et active, capable de contribuer à l'édification d'une société sans drogue. 
+              Secourir les jeunes  et les femmes impliqués dans la toxicomanie
+             </p>
+        </div>
+        <div class="container">
+            <h1 id="defis" class="display-4">Défis</h1>
+            <img style="float: left;margin: 10px" src="img/tousensemblebis.png" alt="">
+            <p  class="lead"> Comment aider les parents usagers de drogues à assumer le  rôle de parent et protéger les
+               enfants contre  la drogue. Cela reste un défi majeur  pour la plupart des parents usagers
+                qui mènent des vies souvent chaotiques.
+
+              </p>
+              <p class="lead">Comment lutter contre la stigmatisation qui pèse sur les femmes toxicomanes, et ce d’autant plus lorsqu’elles sont mères. L’usage de drogues, condamné par la société en général, étant encore moins toléré pour les  femmes
+        
+     </div>
+     <h1  id ="activity" class= "daytitle">Activities</h1>
+        <div class="container">
+        
+            <div id="day" class="row justify-content-center activity-item">
+              <h1>lycee du saint Esprit</h1>
+            </div>
+            <div id="picture" class="row justify-content-center activity-item">
+                  <div class="col-lg-4 col-md-6  col-sm-12 my-2 d-flex align-items-stretch activity-item">
+                     <img src="img/eventLse1.png" alt="">
+                  </div>
+                  <div class="col-lg-4 col-md-6  col-sm-12 my-2 d-flex align-items-stretch activity-item">
+                    <img src="img/eventLse2.png" alt="">
+                  </div>
+                  <div class="col-lg-4 col-md-6  col-sm-12 my-2 d-flex align-items-stretch activity-item">
+                      <img src="img/eventLse3.png" alt="">
+                  </div>
+              </div>
+            <div  id="kinamaid" class="row justify-content-center activity-item">
+              <h1>Kinama</h1>
+            </div>
+            <div id="picture" class="row justify-content-center activity-item">
+                <div class="col-lg-4 col-md-6  col-sm-12 my-2 d-flex align-items-stretch activity-item">
+                   <img src="img/kinama1.png" alt="">
+                </div>
+                <div class="col-lg-4 col-md-6  col-sm-12 my-2 d-flex align-items-stretch activity-item">
+                  <img src="img/kinama2.png" alt="">
+                </div>
+                <div class="col-lg-4 col-md-6  col-sm-12 my-2 d-flex align-items-stretch activity-item">
+                    <img src="img/kinama3.png" alt="">
+                </div>
+            </div>
+         </div>
+         <h1 id= "contact" class="daytitle">Contactez nous</h1>
+         <form class="contact-form">
+            <div class="form-row">
+                <div class="form-group col-md-6 col-sm-12">
+                    <div class="form-row">
+                        <label for="inputName">Nom *</label>
+                        <input type="text" class="form-control" id="inputName" placeholder="Nom" name="i_name" required minlength="1" maxlength="25">
+                    </div>
+                    <div class="form-row">
+                        <label for="inputName">Prenom *</label>
+                        <input type="text" class="form-control" id="inputsurName" placeholder="Prenom" name="sur_name" required minlength="1" maxlength="25">
+                    </div>
+                    <div class="form-row">
+                        <label for="inputName">Email*</label>
+                        <input type="text" class="form-control" id="inputsurName" placeholder="Email" name="email_name" required minlength="1" maxlength="25">
+                    </div>
+                </div>
+                <div class="form-group col-md-6 col-sm-12">
+                    <label for="inputName">message*</label>
+                    <textarea type="text" class="form-control" rows="7"></textarea>
+                    <button type="submit" class="btn btn-dark ">submit</button>
+                </div>
+            </div>
+                   
+         </form>
+         <footer class="section footer-classic context-black bg-image" style="background: black;">
+            <div class="container">
+              <div class="row row-30">
+                  <div class="col-md-4 col-xl-5">
+                      <div style="color: white;" class="pr-xl-4">
+                        <p>AJEDROP est une Association sans but lucratif, agréée par l’ordonnance ministérielle n°530/1703 du 20 Décembre 2018.</p>
+                        <!-- Rights
+                        <p class="rights"><span>©  </span><span class="copyright-year">2019</span><span> C Rukamiza </span><span></span><span>. </span><span>All Rights Reserved.</span></p>
+                      </div>
+                    </div>
+                    <div  style="color: white;"  class="col-md-4">
+                        <h5>Contacts</h5>
+                        <dl class="contact-list">
+                            <dt>Address:</dt>
+                            <dd>Avenue de l’ONU N° 3,Rohero, Mukaza, BUJUMBURA,BURUNDI</dd>
+                        </dl>
+                        <dl class="contact-list">
+                            <dt>email:</dt>
+                            <dd><a href="mailto:#">ajedrop@gmail.com</a></dd>
+                          </dl>
+                    </div>
+                    <div  style="color: white;" class="col-md-4 col-xl-3">
+                        <h5>Links</h5>
+                        <ul class="nav-list">
+                          <li><a href="#accueil">Historique</a></li>
+                          <li><a href="#mission">Mission</a></li>
+                          <li><a href="#activity">Activites</a></li>
+                          <li><a href="#contact">Contacts</a></li>
+                          
+                        </ul>
+                      </div>
+
+              </div>
+                <div class="row justify-content-center">
+                    <div class = " social-icons-list" >
+                        <a class="btn btn-default" href="https://twitter.com/"><i class="fa fa-twitter fa-2x"></i></a>
+                        <a class="btn btn-default" href="https://facebook.com/"><i class="fa fa-facebook fa-2x"></i></a>
+                        <a class="btn btn-default" href="https://instagram.com/"><i class="fa fa-instagram fa-2x"></i></a>   
+                     </div> 
+                </div>
+               
+            </div>    
+         </footer>
+
+      <!--Load Bootstrap Javascript-->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <!-- JavaScript library for making data appear on scroll 
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>-->
+        <script src="main.js"></script>
+  </body>
+  </html>
